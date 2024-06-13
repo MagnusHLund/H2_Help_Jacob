@@ -4,9 +4,9 @@
 	{
 		string[] to;
 		string from, body, subject, cc;
-		private protected Converter _converter;
+		private protected IConverter _converter;
 
-		internal Message(string[] to, string from, string body, string subject, string cc, Converter converter)
+		internal Message(string[] to, string from, string body, string subject, string cc, IConverter converter)
 		{
 			this.to = to;
 			this.from = from;

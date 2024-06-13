@@ -1,8 +1,8 @@
 ﻿namespace H2_Help_Jacob
 {
-	internal class Converter
+	internal class Converter : IConverter
 	{
-		internal string ConvertBodyToHTML(string plainText)
+		public string ConvertBodyToHTML(string plainText)
 		{
 			return "" + plainText + "";
 		}
